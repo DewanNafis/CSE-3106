@@ -1,5 +1,16 @@
-def sum(a, b):
-    return a + b
+def calculator(a, b):
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
+    c = input("Enter operation (+, -, *, /): ")
+    if c == '+':
+        return a + b
+    elif c == '-':
+        return a - b
+    elif c == '*':
+        return a * b
+    elif c == '/':
+        return a / b
+
 def greet(name):
     return f"Hello, {name}!"
 def main():
