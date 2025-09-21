@@ -16,7 +16,9 @@ def noting():
 def greet(name):
     return f"Hello, {name}!"
 
-def main():
+def main()
+    print ("Hello,  Uthso is working")
+
     print(greet("GitHub"))
     print(sum(5, 10))
 
