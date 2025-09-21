@@ -10,9 +10,12 @@ def calculator(a, b):
         return a * b
     elif c == '/':
         return a / b
+def noting():
+    print("this funtion will be deleted soon")
 
 def greet(name):
     return f"Hello, {name}!"
+
 def main():
     print(greet("GitHub"))
     print(sum(5, 10))
